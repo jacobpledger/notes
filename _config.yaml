@@ -1,0 +1,19 @@
+name: jacobpledger.ca
+description: Jacob Pledger's Notes
+
+collections:
+  notes:
+    output: true
+collections_dir: "collections"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
