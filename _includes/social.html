@@ -1,0 +1,7 @@
+<div class="social">
+    <ul>
+        {% for item in site.data.contact %}
+        <li><a href="{{item.value}}" rel="me">{{item.name}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
